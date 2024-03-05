@@ -1,0 +1,53 @@
+.container {
+    width: 80%;
+    /* Adjust as needed */
+    margin: auto;
+    margin-top: 50px;
+}
+
+#myInput {
+    width: 1450px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+#btn {
+    height: 35px;
+
+}
+
+#table {
+    width: 1520px;
+    height: 400px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.header {
+    background-color: grey;
+    height: 40px;
+    font-size: large;
+
+}
+
+#table th,
+#table td {
+    border: 1px solid black;
+}
+
+#table tr.header,
+#table tr:hover {
+    background-color: #f1f1f1;
+}
+
+#mynewUL {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+}
